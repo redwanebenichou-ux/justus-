@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    { "source": "/auctions/:path+", "destination": "/?p=/auctions/:path+", "permanent": false },
+    { "source": "/admin/:path+", "destination": "/?p=/admin/:path+", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/auctions", "destination": "/index.html" },
+    { "source": "/auctions/", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/admin/", "destination": "/index.html" }
+  ]
+}
